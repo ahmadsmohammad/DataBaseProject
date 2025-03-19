@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    {% for section in sections %}
+    <div class="col-md-4 mb-3">
+        <a href="{{ section.url }}" class="btn btn-primary w-100">{{ section.name }}</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
