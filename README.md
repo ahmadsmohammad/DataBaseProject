@@ -18,6 +18,7 @@ SQL x Django DB Project
                           - http://127.0.0.1:8000/api/doctors/
 - Made a basic front end which *currently* allows you to check contents of most tables
 - this will be useful for deugging and implementing RBAC
+- frontend accessible @ 'http://127.0.0.1:8000/'
 
 
 
