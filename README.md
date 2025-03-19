@@ -16,9 +16,12 @@ SQL x Django DB Project
                           - http://127.0.0.1:8000/admin/ (Can update permissions through Django 'superuser')
                           - http://127.0.0.1:8000/api/appointments/
                           - http://127.0.0.1:8000/api/doctors/
+- Made a basic front end which *currently* allows you to check contents of most tables
+- this will be useful for deugging and implementing RBAC
+
 
 
 **TO-DOs**
-- Implement correct permissions for each user/group through django superuser
+- Implement RBAC and logon page to enforce
+   - Have it to when user logs on ONLY the tables permissible to them is viewable/editable based on RBAC Diagram in slides
 - Implement security policies such as encryption on the data possibly through sql default
-- (least priority) make a front end
