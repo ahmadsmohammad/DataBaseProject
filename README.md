@@ -9,7 +9,7 @@ SQL x Django DB Project
 2) Download Django Code:
    - Download python code and set it in its own folder.
    - To run code "python manage.py runserver" in the "hospital_backend" directory
-   - make sure in */hospital_backend/settings.py* @ DATABASES the user and pass are set to your user and pass
+   - make sure in */hospital_backend/settings.py* @line:80 DATABASES the user and pass are set to your user and pass
   
 **CURRENT PROGRESS**
 - After starting the server, you can access (locally) these REST APIS to update DB...
